@@ -1,3 +1,8 @@
-<h2 id="title">Welcome to Ember</h2>
-
+<div class="app-outer">
+<h2 id="title">My Test App</h2>
+<h2>
+    <a class="cursor-pointer">{{#link-to "index"}}Posts{{/link-to}}</a>
+    <a class="cursor-pointer">{{#link-to "albums"}}Albums{{/link-to}}</a>
+</h2>
 {{outlet}}
+</div>
