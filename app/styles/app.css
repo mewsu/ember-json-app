@@ -9,10 +9,10 @@
     padding: 8px;
 }
 
-.post-title {
+.cursor-pointer {
     cursor: pointer;
 }
 
-.cursor-pointer {
-    cursor: pointer;
+.cursor-pointer:hover {
+    color: blue;
 }
